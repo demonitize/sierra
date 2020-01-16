@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <script>
+            document.cookie = "name=Login Information username=Jim Halpert; expires=Sun, 10 Nov 2019 12:00:00 UTC; path=/";
+
+        </script>
+        <link rel="stylesheet" href="file:///home/chronos/u-b21c2056909f7773c6bb20291cbff5b4435d0ec9/MyFiles/notes/style.css">
+    <header>
+        <title>Please log in to proceed</title>
+        <h1>
+            <strong>
+                LOGIN
+            </strong>
+        </h1>
+    </header>
+    </head>
+    <hr>
+    <body>
+        <form action="file:///home/chronos/u-b21c2056909f7773c6bb20291cbff5b4435d0ec9/MyFiles/notes/home.html">
+            <input type='text' placeholder='Username' id='uname' name='uname' title='Username' value="Administrator" required disabled>
+                <br>
+            <input type='password' placeholder='Password' id='password' name='password' title='Password' value="12345" required disabled>
+                <br>
+            <input type='submit' value='Submit' name='submit' onclick=''>
+            <input type='reset' name='reset' value='Reset'>
+        <script>
+           /* function resetfn() {
+                confirm("Do you want to log in")
+                if (confirm("Do you want to log in")) {
+  window.open("file:///home/chronos/u-b21c2056909f7773c6bb20291cbff5b4435d0ec9/MyFiles/notes/home.html");
+  window.close()
+} else {
+  return;
+}
+            }
+            */
+            chrome.notifications.create('test', { type: 'basic',
+                message: "Example Text",
+                title: "Test",
+                iconUrl: "file:///home/chronos/u-b21c2056909f7773c6bb20291cbff5b4435d0ec9/MyFiles/Downloads/favicon.ico"}, function (notificationId) { })
+        </script>
+        </form>
+    </body>
+    <meta name="description" content="Notes for I-Ready">
+    <p>Powered by Chromium OS</p>
+</html>
